@@ -1,6 +1,6 @@
 # luz-syntax-highlighting README
 
-This is the README for your extension "luz-syntax-highlighting". After writing up a brief description, we recommend including the following sections.
+This is the README for your extension "luz-lang-support". After writing up a brief description, we recommend including the following sections.
 
 ## Features
 
