@@ -1,0 +1,25 @@
+{
+  "name": "luz-lang-support",
+  "displayName": "Luz Language Support",
+  "description": "Luz Language Support",
+  "version": "0.0.1",
+  "engines": {
+    "vscode": "^1.100.0"
+  },
+  "categories": [
+    "Programming Languages"
+  ],
+  "contributes": {
+    "languages": [{
+      "id": "luz",
+      "aliases": ["Luz", "luz"],
+      "extensions": [".luz"],
+      "configuration": "./language-configuration.json"
+    }],
+    "grammars": [{
+      "language": "luz",
+      "scopeName": "source.luz",
+      "path": "./syntaxes/luz.tmLanguage.json"
+    }]
+  }
+}
